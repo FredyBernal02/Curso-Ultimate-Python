@@ -15,5 +15,6 @@ def ordena(elemento):
     return elemento[1]
 
 
-usuarios.sort(key=ordena, reverse=True)
+# La funcion lambda funciona como una forma compacta de escribir funciones pequeñas y anonimas.
+usuarios.sort(key=lambda el: el[1])
 print(usuarios)
