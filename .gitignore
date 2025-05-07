@@ -1,0 +1,25 @@
+# Archivos de sistema macOS
+.DS_Store
+
+# Configuración de VSCode
+.vscode/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Archivos ocultos
+Thumbs.db
